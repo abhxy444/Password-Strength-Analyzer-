@@ -1,9 +1,9 @@
-🔐 Password Strength Analyzer & Custom Wordlist Generator
+#🔐 Password Strength Analyzer & Custom Wordlist Generator
 
 A Python-based tool that helps you analyze password strength and generate custom wordlists from user-provided hints.
 Useful for ethical hacking labs, cybersecurity education, and password policy testing.
 
-🧩 Features
+##🧩 Features
 
 🔍 Analyze password strength using zxcvbn or entropy calculation
 
