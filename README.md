@@ -3,7 +3,7 @@
 A Python-based tool that helps you analyze password strength and generate custom wordlists from user-provided hints.
 Useful for ethical hacking labs, cybersecurity education, and password policy testing.
 
-##🧩 Features
+## 🧩 Features
 
 🔍 Analyze password strength using zxcvbn or entropy calculation
 
@@ -15,7 +15,7 @@ Useful for ethical hacking labs, cybersecurity education, and password policy te
 
 🖥️ Simple CLI, ready for automation or GUI extension
 
-⚙️ Installation
+## ⚙️ Installation
 
 Clone the repository:
 
@@ -27,8 +27,8 @@ Install required dependencies:
 
 pip install -r requirements.txt
 
-🚀 Usage
-🔒 Analyze Password
+## 🚀 Usage
+### 🔒 Analyze Password
 
 Check how strong your password is:
 
@@ -39,22 +39,14 @@ Example output:
 
 {'score': 3, 'entropy': 56.4, 'feedback': {'suggestions': ['Add more symbols or numbers']}}
 
-🧾 Generate Wordlist
+### 🧾 Generate Wordlist
 
 Create a custom wordlist from your hints:
 
 python password_strength_tool/analyzer.py generate --hints abhay dog 2001 --out abhay_wordlist.txt
 
 
-Example generated words:
-
-abhaydog
-dogabhay
-abhay2005
-d0g_abhay
-@bhay1998
-
-📁 Folder Structure
+## 📁 Folder Structure
 password-strength-analyzer/
 │
 ├── password_strength_tool/
@@ -65,13 +57,13 @@ password-strength-analyzer/
 ├── README.md
 └── .gitignore
 
-🧪 Testing
+## 🧪 Testing
 
 Run basic tests using:
 
 pytest tests/
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This tool is for educational and ethical use only.
 Do not use it for unauthorized password cracking or testing.
